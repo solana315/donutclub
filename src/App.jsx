@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import heroImg from './assets/Donutimg1.jpg'
 import './App.css'
+import Footer from "./components/footer";
 
 function App() {
   const [apiStatus, setApiStatus] = useState('A ligar...')
@@ -39,7 +40,7 @@ function App() {
 
         <div className="hero-media">
           <div className="hero-card">
-           <img src={heroImg} alt="Donuts artesanais" />
+            <img src={heroImg} alt="Donuts artesanais" />
           </div>
         </div>
       </main>
@@ -59,34 +60,7 @@ function App() {
         </article>
       </section>
 
-
-
-      <footer className="footer" id="contact">
-        <div className="footer-column">
-          <strong>Contactos</strong>
-          <p>+351 912 345 678</p>
-          <p>hello@donutclub.pt</p>
-          <p>Rua das Flores, 123 · Porto</p>
-        </div>
-
-        <div className="footer-column">
-          <strong>Redes Sociais</strong>
-          <p>Instagram</p>
-          <p>Facebook</p>
-          <p>TikTok</p>
-        </div>
-
-        <div className="footer-column">
-          <strong>Morada</strong>
-          <p>Centro do Porto</p>
-          <p>Aberto todos os dias</p>
-          <p>08:00 — 20:00</p>
-        </div>
-      </footer>
-
-      <div className="copyright">
-        © 2025 Donut Club. Todos os direitos reservados.
-      </div>
+      <Footer />
     </div>
   )
 }
