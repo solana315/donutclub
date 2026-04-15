@@ -46,7 +46,7 @@ function App() {
 
       <section className="features">
         <article className="feature-card">
-          <h2>Artesanal</h2>
+          <h2>Artedsfsazsanal</h2>
           <p>Massa fresca preparada todos os dias.</p>
         </article>
         <article className="feature-card">
