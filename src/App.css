@@ -4,13 +4,33 @@
   padding: 24px 24px 0px;
 }
 
-
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 .topbar {
+  background-color: #E8DDD7;
+  margin-bottom: 24vw;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: 24vw-;
+  margin-top: -24px;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.topbar-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 12px 24px 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 24px;
-  padding: 12px 0 8px;
 }
 
 .brand {
@@ -49,6 +69,7 @@
   align-items: center;
   gap: 36px;
   padding: 48px 0 20px;
+  margin-top: 100px;
 }
 
 .hero-copy { /*ver menu, parte debaixo*/

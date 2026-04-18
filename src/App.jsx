@@ -17,9 +17,11 @@ function App() {
   return (
     <div className="page">
       <header className="topbar">
+        <div className="topbar-inner">
         <a className="brand" href="#home">
           <img src={logo} alt="Donut Club" />
         </a>
+        
         <nav className="nav">
           <a href="#home">Home</a>
           <a href="#about">Sobre Nós</a>
@@ -27,6 +29,8 @@ function App() {
           <a href="#contact">Como Chegar</a>
           <a href="#contact">Contactos</a>
         </nav>
+
+</div>
       </header>
 
       <main className="hero-block" id="home">
