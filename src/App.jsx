@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
-import heroImg from './assets/Donutimg1.jpg'
+import heroImg from './assets/Donuts.png'
+import logo from './assets/logo.fundo.png'
 import './App.css'
 import Footer from "./components/footer";
 
@@ -17,7 +18,7 @@ function App() {
     <div className="page">
       <header className="topbar">
         <a className="brand" href="#home">
-          Donut Club
+          <img src={logo} alt="Donut Club" />
         </a>
         <nav className="nav">
           <a href="#home">Home</a>

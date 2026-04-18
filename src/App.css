@@ -1,17 +1,9 @@
-html,
-body,
-#root {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden;
-}
-
 .page {
   max-width: 1120px;
   margin: 0 auto;
   padding: 24px 24px 0px;
 }
+
 
 .topbar {
   display: flex;
@@ -26,6 +18,11 @@ body,
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 700;
+}
+.brand img {
+  height: 5rem;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav {
@@ -60,8 +57,8 @@ body,
 
 .hero-badge {/*botão - "feitos á mão diariamente"*/
   display: inline-flex;
-  background: rgba(110, 141, 93, 0.12);
-  color: var(--accent);
+  background-color:#E8DDD7;
+  color: #24356B;
   border-radius: 999px;
   padding: 10px 18px;
   font-size: 0.9rem;
@@ -74,6 +71,8 @@ body,
   font-size: clamp(3rem, 5vw, 4.75rem);
   line-height: 0.95;
   letter-spacing: -0.05em;
+  color:#24356B;
+
 }
 
 .hero-copy p {
@@ -83,11 +82,11 @@ body,
   font-size: 1.05rem;
 }
 
-.hero-button {
+.hero-button { /*ver menu button*/
   display: inline-flex;
   margin-top: 32px;
   padding: 16px 28px;
-  background: var(--accent);
+  background-color: #EFA4C2;
   color: #fff;
   border-radius: 999px;
   text-decoration: none;
@@ -161,7 +160,7 @@ body,
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 48px;
   padding: 40px 24px 30px;
-  background: #402717;
+  background: #24356B;
   margin: 0 -24px;
   width: 100vw;
   position: relative;
@@ -210,7 +209,7 @@ body,
   color: #ffffff;
   font-size: 0.95rem;
   padding: 40px 24px 50px;
-  background: #402717;
+  background: #24356B;
   width: 100vw;
   position: relative;
   left: 50%;
@@ -243,11 +242,12 @@ body,
     grid-template-columns: 1fr;
   }
 
-  .topbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 12px 0;
+}
   .nav {
     justify-content: center;
     width: 100%;
