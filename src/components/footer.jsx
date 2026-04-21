@@ -21,7 +21,7 @@ function Footer() {
 
         <div className="footer-column">
           <strong>Morada</strong>
-          <p>Centro do Porto</p>
+          <p>Centro de Viseu</p>
           <p>Aberto todos os dias</p>
           <p>08:00 — 20:00</p>
         </div>
