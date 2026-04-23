@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import heroImg from './assets/Donuts.png'
 import logo from './assets/logo.fundo.png'
 import Footer from './components/Footer'
+import Topbar from './components/topbar'
 
 function Home() {
   const [apiStatus, setApiStatus] = useState('A ligar...')
@@ -16,21 +17,7 @@ function Home() {
 
   return (
     <div className="page">
-      <header className="topbar">
-        <div className="topbar-inner">
-          <Link className="brand" to="/">
-            <img src={logo} alt="Donut Club" />
-          </Link>
-
-          <nav className="nav">
-            <Link to="/">Home</Link>
-            <Link to="/sobrenos">Sobre Nós</Link>
-            <a href="#menu">Menu</a>
-            <a href="#contact">Como Chegar</a>
-            <a href="#contact">Contactos</a>
-          </nav>
-        </div>
-      </header>
+<Topbar />
 
       <main className="hero-block" id="home">
         <div className="hero-copy">
@@ -39,7 +26,9 @@ function Home() {
           <p>
             Receitas artesanais, glaze delicado e uma seleção de sabores pensada para transformar qualquer pausa num pequeno ritual doce.
           </p>
-          <a className="hero-button" href="#menu">Ver Menu</a>
+          <Link className="hero-button" to="/menu">
+            Ver Menu
+          </Link>
         </div>
 
         <div className="hero-media">
