@@ -9,7 +9,8 @@ function Footer() {
           <strong>Contactos</strong>
           <p>+351 912 345 678</p>
           <p>hello@donutclub.pt</p>
-          <p>Projeto de Marketing, 3100-550, Viseu</p>
+          <p>Projeto de Marketing, 
+            3100-550, Viseu</p>
         </div>
 
         <div className="footer-column">
