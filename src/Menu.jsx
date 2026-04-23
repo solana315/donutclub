@@ -9,7 +9,6 @@ import matcha from './assets/donutsmenu/Matcha Dream.png'
 import pistachio from './assets/donutsmenu/Pistachio Vegan.png'
 import strawberry from './assets/donutsmenu/Strawberry Fix.png'
 import vanilla from './assets/donutsmenu/Vanilla Bomb.png'
-import Footer from './components/Footer'
 import Topbar from './components/topbar'
 
 
