@@ -52,7 +52,6 @@ function Home() {
           <p>Visual premium, ambiente leve e donuts feitos para voltar sempre.</p>
         </article>
       </section>
-
       <Footer />
     </div>
   )
