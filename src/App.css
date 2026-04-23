@@ -139,7 +139,7 @@ html, body, #root {
 }
 
 .hero-card {
-  width: min(100%, 520px);
+  width: min(100%, 320px);
   border-radius: 48px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), #f7efe7);
   padding: 32px;
