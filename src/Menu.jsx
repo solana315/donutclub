@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import Footer from './components/Footer'
+import Footer from './components/footer'
 import cinnamon from './assets/donutsmenu/Cinnamon Sugar.png'
 import classic from './assets/donutsmenu/Classic Glaze.png'
 import choco from './assets/donutsmenu/Double Choco.png'

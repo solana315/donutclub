@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import heroImg from './assets/Donuts.png'
 import logo from './assets/logo.fundo.png'
-import footer from './components/footer'
+import Footer from './components/footer'
 import Topbar from './components/topbar'
 
 function Home() {
