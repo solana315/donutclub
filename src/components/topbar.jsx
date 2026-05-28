@@ -15,7 +15,6 @@ function Topbar() {
           <Link to="/sobrenos">Sobre Nós</Link>
           <Link to="/menu">Menu</Link>
           <Link to="/contact">Como Chegar</Link>
-          <Link to="/contact">Contactos</Link>
         </nav>
       </div>
     </header>

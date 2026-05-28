@@ -6,14 +6,6 @@ function Footer() {
     <>
       <footer className="footer" id="contact">
         <div className="footer-column">
-          <strong>Contactos</strong>
-          <p>+351 912 345 678</p>
-          <p>hello@donutclub.pt</p>
-          <p>Projeto de Marketing, </p>
-           <p> 3100-550, Viseu</p>
-        </div>
-
-        <div className="footer-column">
           <strong>Redes Sociais</strong>
           <p>Instagram</p>
           <p>Facebook</p>
